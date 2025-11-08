@@ -1,16 +1,23 @@
-# supabase_chat
+# Supabase Chat - Flutter приложение
 
-A new Flutter project.
+## Описание
+Простое приложение чата, построенное на Flutter и Supabase.
 
-## Getting Started
+## Функциональность
+- 📱 Отображение списка сообщений
+- 🔄 Кнопка обновления
+- ✉️ Отправка новых сообщений
+- 🗃️ Хранение данных в Supabase
 
-This project is a starting point for a Flutter application.
+## Технологии
+- Flutter
+- Supabase
+- Dart
 
-A few resources to get you started if this is your first Flutter project:
+## Как запустить
+1. Клонируйте репозиторий
+2. Установите зависимости: `flutter pub get`
+3. Запустите: `flutter run`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Настройка Supabase
+Замените URL и ключ в `lib/supabase_client.dart` на ваши данные из Supabase.
